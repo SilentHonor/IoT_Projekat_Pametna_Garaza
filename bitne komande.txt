@@ -1,0 +1,5 @@
+KOMANDE:
+
+Ako je mosquitto zauzet: sudo systemctl stop mosquitto.service
+pokretanje mosquitto-a: mosquitto -v
+compile: gcc -o >ime output filea< file.c -pthread -lmosquitto (za aplikaciju NE raditi pthread)
